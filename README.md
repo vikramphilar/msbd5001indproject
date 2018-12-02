@@ -8,8 +8,8 @@ Vikram Philar (Student ID: 20537190)
 Python 
 
 ## Packages required: 
-**Pandas** - For operations on the provided input csv files, <br />
-**Sklearn** - To create and run machine learning models for prediction, <br />
+**Pandas** - For operations on the provided input csv files <br />
+**Sklearn** - To create and run machine learning models for prediction <br />
 **Warnings** - To suppress warnings generated just so that it doesn't clutter the printed output statements <br />
 
 ## Steps to run the program:
