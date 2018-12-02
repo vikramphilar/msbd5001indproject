@@ -10,7 +10,6 @@ Python
 **Warnings** - To suppress warnings generated just so that it doesn't clutter the printed output statements <br />
 
 ## Steps to run the program:
-
 * All the code can be found in ***main.py*** file <br />
 * The code can be run on any machine that has Anaconda/Spyder installed on it <br />
 * Create a folder on the machine where you plan to run the program and download the ***main.py*** file into this folder <br />
@@ -315,3 +314,6 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+## Output
+
