@@ -41,7 +41,8 @@ Python
 ```
 * Provide a temporary name for the script on the top of the page and hit the **Commit** button located on the top-right <br />
 * This should pop-up a new window and execute the code <br />
-* Once the program has finished execution, it should provide a link to the ***submission.csv*** file that was created by the program <br />
+* Once the program has finished execution, it should provide a link (hit the **Open Version** button next to the link) 
+* You can find the output ***submission.csv*** file created by the program under the **Code** tab on this link <br />
 
 ## Code
 
