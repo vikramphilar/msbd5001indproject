@@ -17,30 +17,31 @@ Python
 ### Run on local machine (mac OS)
 * The code can be found in ***main.py*** file <br />
 * It can be run on any machine that has Anaconda/Spyder installed on it <br />
-* On the machine where you plan to run the program, please create a new folder and download the following from the repository into this folder: <br />
-    * ***main.py*** file <br />
+* On the machine where you plan to run the program, please create a new folder and download the ***main.py*** file <br />
 * Run the program <br />
 * Output is printed on iPython console in Spyder (screenshot of the result is attached at the bottom of this page) <br />
 * A ***submission.csv*** file is created in the folder <br />
 
 ### Run on Kaggle
-* On the Kaggle competition's main page (https://www.kaggle.com/c/msbd5001-fall2018), navigate to the **Kernels** tab
-* Select **New Kernel** -> **Script**
-* Delete the contents (if any) of the newly created kernel
-* Copy the contents of ***main.py*** into the newly created kernel
-* In the ***main.py***'s, ReadInputFiles() function, change the path of the train.csv and test.csv files from:
+* On the Kaggle competition's main page (https://www.kaggle.com/c/msbd5001-fall2018), navigate to the **Kernels** tab <br />
+* Select **New Kernel** -> **Script** <br />
+* Delete the contents (if any) of the newly created kernel <br />
+* Copy the contents of ***main.py*** into the newly created kernel <br />
+* In the ***main.py***'s, **ReadInputFiles()** function, change the path of the train.csv and test.csv files from: <br />
 ```python
     trainDf = pd.read_csv('train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
     testDf = pd.read_csv('test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
     yLabel = pd.read_csv('train.csv', usecols=[14])
 ```
-...to this:
+...to this: <br />
 ```python
     trainDf = pd.read_csv('../input/train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
     testDf = pd.read_csv('../input/test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
     yLabel = pd.read_csv('../input/train.csv', usecols=[14])
 ```
-
+* Provide a temporary name for the script on the top of the page and hit the **Commit** button located on the top-right <br />
+* This should pop-up a new window and execute the code <br />
+* Once the program has finished execution, it should provide a link to the ***submission.csv*** file that was created by the program <br />
 
 ## Code
 
