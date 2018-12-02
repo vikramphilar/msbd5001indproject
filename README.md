@@ -13,7 +13,7 @@ Python
 
 * All the code can be found in ***main.py*** file <br />
 * The code can be run on any machine that has Anaconda/Spyder installed on it <br />
-* Create a folder on the machine where you plan to run the program and download the main.py file into this folder <br />
+* Create a folder on the machine where you plan to run the program and download the ***main.py*** file into this folder <br />
 * Also place the given ***train.csv*** and ***test.csv*** files into the newly created folder <br />
 * The output is printed on the iPython console in Spyder <br />
 * A ***submission.csv*** file is created in the folder <br />
