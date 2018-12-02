@@ -14,14 +14,32 @@ Python
 
 ## Steps to run the program:
 
+### Run on local machine (mac OS)
 * The code can be found in ***main.py*** file <br />
 * It can be run on any machine that has Anaconda/Spyder installed on it <br />
-* Create a new folder on the machine where you plan to run the program and download the following from the repository into this folder: <br />
+* On the machine where you plan to run the program, please create a new folder and download the following from the repository into this folder: <br />
     * ***main.py*** file <br />
-    * ***input*** folder <br />
 * Run the program <br />
 * Output is printed on iPython console in Spyder (screenshot of the result is attached at the bottom of this page) <br />
 * A ***submission.csv*** file is created in the folder <br />
+
+### Run on Kaggle
+* On the Kaggle competition's main page (https://www.kaggle.com/c/msbd5001-fall2018), navigate to the **Kernels** tab
+* Select **New Kernel** -> **Script**
+* Delete the contents (if any) of the newly created kernel
+* Copy the contents of ***main.py*** into the newly created kernel
+* In the ***main.py***'s, ReadInputFiles() function, change the path of the train.csv and test.csv files from:
+```python
+    trainDf = pd.read_csv('train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
+    testDf = pd.read_csv('test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
+    yLabel = pd.read_csv('train.csv', usecols=[14])
+```
+...to this:
+```python
+    trainDf = pd.read_csv('../input/train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
+    testDf = pd.read_csv('../input/test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
+    yLabel = pd.read_csv('../input/train.csv', usecols=[14])
+```
 
 
 ## Code
@@ -61,9 +79,9 @@ warnings.filterwarnings("ignore")
 ####################################################################################
 def ReadInputFiles():
     
-    trainDf = pd.read_csv('./input/train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
-    testDf = pd.read_csv('./input/test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
-    yLabel = pd.read_csv('./input/train.csv', usecols=[14])
+    trainDf = pd.read_csv('train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
+    testDf = pd.read_csv('test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
+    yLabel = pd.read_csv('train.csv', usecols=[14])
     
     return (trainDf, yLabel, testDf)
 
