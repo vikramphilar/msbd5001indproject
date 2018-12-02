@@ -27,7 +27,7 @@ Python
 * Select **New Kernel** -> **Script** <br />
 * Delete the contents (if any) of the newly created kernel <br />
 * Copy the contents of ***main.py*** into the newly created kernel <br />
-* In the ***main.py***'s, **ReadInputFiles()** function, change the path of the train.csv and test.csv files from: <br />
+* In the ***main.py***'s, **ReadInputFiles()** function, change the path of the **train.csv** and **test.csv** files from: <br />
 ```python
     trainDf = pd.read_csv('train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
     testDf = pd.read_csv('test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
