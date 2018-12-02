@@ -16,7 +16,7 @@ Python
 * Create a folder on the machine where you plan to run the program and download the main.py file into this folder <br />
 * Also place the given ***train.csv*** and ***test.csv*** files into the newly created folder <br />
 * The output is printed on the iPython console in Spyder <br />
-* A submission.csv file is created in the folder <br />
+* A ***submission.csv*** file is created in the folder <br />
 
 ## Code
 
