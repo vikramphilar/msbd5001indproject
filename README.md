@@ -45,10 +45,13 @@ warnings.filterwarnings("ignore")
 #
 # Parameters -      None
 #
-# Output -          testDf
+# Output -          trainDf,
+#                   yLabel,
+#                   testDf
 #
 # Description -     This function reads the train.csv and test.csv files into 
-#                   two dataframes, trainDf and testDf.
+#                   two dataframes, trainDf and testDf. It also reads the ylabels of
+#                   training data into yLabel
 ####################################################################################
 def ReadInputFiles():
     
