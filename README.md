@@ -14,7 +14,7 @@ Python
 
 ## Steps to run the program:
 
-### Run on local machine (mac OS)
+### Runing on local machine (mac OS)
 * The code can be found in ***main.py*** file <br />
 * It can be run on any machine that has Anaconda/Spyder installed on it <br />
 * On the machine where you plan to run the program, please create a new folder and download the ***main.py*** file <br />
@@ -22,7 +22,7 @@ Python
 * Output is printed on iPython console in Spyder (screenshot of the result is attached at the bottom of this page) <br />
 * A ***submission.csv*** file is created in the folder <br />
 
-### Run on Kaggle
+### Running on Kaggle
 * On the Kaggle competition's main page (https://www.kaggle.com/c/msbd5001-fall2018), navigate to the **Kernels** tab <br />
 * Select **New Kernel** -> **Script** <br />
 * Delete the contents (if any) of the newly created kernel <br />
