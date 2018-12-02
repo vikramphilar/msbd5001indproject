@@ -316,4 +316,4 @@ if __name__ == "__main__":
 ```
 
 ## Output
-![My image](\\Macintosh HD⁩\⁨\Users⁩\\vikramphilar-mm⁩\\⁨Downloads⁩\\result.png)
+![Result](https://github.com/vikramphilar/msbd5001indproject/blob/master/result.png)
