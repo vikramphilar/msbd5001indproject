@@ -1,3 +1,6 @@
+# Author
+Vikram Philar (Student ID: 20537190)
+
 # msbd5001indproject
 This repository holds project files for the MSBD 5001 Kaggle in-class competition assignment
 
