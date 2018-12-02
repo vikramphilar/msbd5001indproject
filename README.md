@@ -1,5 +1,5 @@
 # msbd5001indproject
-This repository holds readme file, code and submission.csv files for MSBD 5001 individual project
+This repository holds project files for the MSBD 5001 Kaggle in-class competition assignment
 
 ## Programming language used: 
 Python 
@@ -316,4 +316,4 @@ if __name__ == "__main__":
 ```
 
 ## Output
-![Result](https://github.com/vikramphilar/msbd5001indproject/blob/master/result.png)
+![Result](https://github.com/vikramphilar/msbd5001indproject/blob/master/result_screenshot.png)
