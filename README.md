@@ -13,13 +13,16 @@ Python
 **Warnings** - To suppress warnings generated just so that it doesn't clutter the printed output statements <br />
 
 ## Steps to run the program:
-* All the code can be found in ***main.py*** file <br />
-* The code can be run on any machine that has Anaconda/Spyder installed on it <br />
-* Create a folder on the machine where you plan to run the program and download the ***main.py*** file into this folder <br />
-* Also place the given ***train.csv*** and ***test.csv*** files into the newly created folder <br />
+
+* The code can be found in ***main.py*** file <br />
+* It can be run on any machine that has Anaconda/Spyder installed on it <br />
+* Create a new folder on the machine where you plan to run the program and download the following from the repository into this folder: <br />
+    * ***main.py*** file <br />
+    * ***input*** folder <br />
 * Run the program <br />
 * Output is printed on iPython console in Spyder (screenshot of the result is attached at the bottom of this page) <br />
 * A ***submission.csv*** file is created in the folder <br />
+
 
 ## Code
 
@@ -58,9 +61,9 @@ warnings.filterwarnings("ignore")
 ####################################################################################
 def ReadInputFiles():
     
-    trainDf = pd.read_csv('train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
-    testDf = pd.read_csv('test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
-    yLabel = pd.read_csv('train.csv', usecols=[14])
+    trainDf = pd.read_csv('./input/train.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
+    testDf = pd.read_csv('./input/test.csv', usecols=[0,1,2,3,4,5,6,7,8,9,10,11,12,13], index_col=0)
+    yLabel = pd.read_csv('./input/train.csv', usecols=[14])
     
     return (trainDf, yLabel, testDf)
 
