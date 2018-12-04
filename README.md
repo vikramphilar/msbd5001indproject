@@ -14,10 +14,10 @@ Python
 
 ## Files in the repository:
 
-**README.md** - 
-**main.py** - 
-**result_screenshot.png** - 
-**test.csv** - 
+**README.md** - This is the readme file that has all the steps for executing the program <br />
+**main.py** - This is the python code file. <br />
+**result_screenshot.png** - This is a screenshot of my result after running the code. <br />
+**test.csv** - This is my submission file that was chosen by Kaggle for scoring. <br />
 
 ## Steps to run the program:
 
