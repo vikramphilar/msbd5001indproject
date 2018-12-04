@@ -16,11 +16,12 @@ Python
 
 ### Runing on local machine (mac OS)
 * The code can be found in ***main.py*** file <br />
-* It can be run on any machine that has Anaconda/Spyder installed on it <br />
+* The file can be run on any machine that has Anaconda/Spyder installed on it <br />
 * On the machine where you plan to run the program, please create a new folder and download the ***main.py*** file <br />
+* Make sure the csv files given for the project, ***train.csv*** and ***test.csv***, are also present in the same folder as ***main.py***
 * Run the program <br />
 * Output is printed on iPython console in Spyder (screenshot of the result is attached at the bottom of this page) <br />
-* A ***submission.csv*** file is created in the folder <br />
+* A ***submission.csv*** file is created in the same folder with the results <br />
 
 ### Running on Kaggle
 * On the Kaggle competition's main page (https://www.kaggle.com/c/msbd5001-fall2018), navigate to the **Kernels** tab <br />
