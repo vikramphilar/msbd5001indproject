@@ -12,6 +12,13 @@ Python
 **Sklearn** - To create and run machine learning models for prediction <br />
 **Warnings** - To suppress warnings generated just so that it doesn't clutter the printed output statements <br />
 
+## Files in the repository:
+
+**README.md** - 
+**main.py** - 
+**result_screenshot.png** - 
+**test.csv** - 
+
 ## Steps to run the program:
 
 ### Runing on local machine (mac OS)
